@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ASUS Tablets</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+  <img src="https://www.laptopsdirect.co.uk/images/Z580C-1B026A_1_classic.jpg" alt="ASUS Tablets logo"></a>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false">☰</button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Powerful ASUS tablets for work & play</h1>
+          <p>Explore the ZenPad and ROG series with fast delivery and warranty.</p>
+          <a class="btn" href="#contact">Get a Quote</a>
+        </div>
+        <div class="hero-media">
+          <img src="https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg" alt="ASUS Tablet">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container">
+      <h2>About Us</h2>
+      <p>We’re an authorized ASUS tablet reseller based in Nairobi, offering warranty, fast shipping, and expert support.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container contact-page">
+      <h2>Contact Us</h2>
+      <form id="contactForm" novalidate>
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+        <button type="submit" class="btn">Send</button>
+        <div id="formStatus"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> ASUS Tablets — All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
